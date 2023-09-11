@@ -23,7 +23,7 @@ height: 100%;
 float: left;
 }
 #detalle{
-background: #FF416C;
+background: #1292a8;
 width: 50%;
 height: 100%;
 float: left;
@@ -47,8 +47,8 @@ font-size: 15px;
 font-weight: bold;
 padding: 12px 45px;
 border-radius: 30px;
-background-color: #FF416C;
-border: 1px solid #FF416C;
+background-color: #1292a8;
+border: 1px solid #000000;
 color: #FFFFFF;
 text-transform: uppercase;
 letter-spacing: 1px;
