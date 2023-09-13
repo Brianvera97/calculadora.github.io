@@ -71,14 +71,14 @@ function calcFlujo(peso){
     let suma= A+B;
     suma+=CadaKg;
     let resultado= suma/24;
-    return resultado;
+    return resultado.toFixed(2);
   }
 
   else if(valor<=10){
     let CadaKg= valor*100
     let suma= CadaKg;
     let resultado= suma/24;
-    return resultado;
+    return resultado.toFixed(2);
   }
 
   else if(valor<=20){
@@ -87,6 +87,6 @@ function calcFlujo(peso){
     suma+=CadaKg;
     let resultado= suma/24;
     
-    return resultado;
+    return resultado.toFixed(2);
   }
 }
